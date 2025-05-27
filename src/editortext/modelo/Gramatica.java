@@ -15,7 +15,7 @@ public class Gramatica {
         producciones.add(produccion); 
     }
     
-    public List<Produccion> getProdcciones(){
+    public List<Produccion> getProducciones(){
         return producciones; 
     }
 }
