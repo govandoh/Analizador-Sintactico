@@ -26,7 +26,7 @@ public class TransformadorRecursividad {
             if(recursivas.isEmpty()){
                 nueva.agregarProduccion(prod);
             }else{
-                String nuevaVar = var + "'"; 
+                String nuevaVar = var + "'";    //aqui podria tener que cambiar el icono de como quito recursividad
                 Produccion prodNoRec = new Produccion(var); 
                 Produccion prodRec = new Produccion(nuevaVar);
                 

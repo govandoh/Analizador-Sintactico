@@ -26,7 +26,7 @@ public class CalcularFunciones {
                 // Validación especial: si v termina en prima pero lo siguiente NO es prima
                 // Evita que 'S' (S-prima) haga match sobre 'S' seguida de ')'
                 int vlen = v.length();
-                if (v.endsWith("'") && s.length() > vlen) {
+                if (v.endsWith("'") && s.length() > vlen) { //en este endWith tambien
                     char next = s.charAt(vlen);
                     if (next != '\'' && !Character.isLetterOrDigit(next)) {
                         // S' seguido de ) u otro caracter raro, NO debe matchear
